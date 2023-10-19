@@ -211,7 +211,7 @@ await conn.sendMessage(m.chat, {
 }
 handler.help = ['help']
 handler.tags = ['main']
-handler.command = /^(menuall|allmenu)$/i;
+handler.command = /^(menua|allmenu)$/i;
 
 handler.register = true;
 handler.limit = true;
